@@ -77,9 +77,9 @@ export default function Hero({ ready }) {
 
         <div className="hero__frame">
           <div className="hero__stats">
-            <div className="hero__stat"><strong>18+</strong><span>Years Building</span></div>
-            <div className="hero__stat"><strong>1,200+</strong><span>Families Homed</span></div>
-            <div className="hero__stat"><strong>40</strong><span>Live Projects</span></div>
+            <div className="hero__stat"><strong>5+</strong><span>Years Building</span></div>
+            <div className="hero__stat"><strong>50+</strong><span>Families Homed</span></div>
+            <div className="hero__stat"><strong>40+</strong><span>Live Projects</span></div>
           </div>
         </div>
       </div>

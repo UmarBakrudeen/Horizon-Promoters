@@ -47,9 +47,9 @@ export default function Footer() {
 
         <div className="footer__col">
           <h4>Contact</h4>
-          <a href="tel:+919876543210">+91 98765 43210</a>
+          <a href="tel:+919876543210">+91 98656 59510</a>
           <a href="mailto:hello@horizonpromoters.in">hello@horizonpromoters.in</a>
-          <span>Horizon Towers, Ring Road, Madurai</span>
+          <span>Thiruverumbur, Trichy</span>
         </div>
       </div>
       <div className="wrap footer__bottom">

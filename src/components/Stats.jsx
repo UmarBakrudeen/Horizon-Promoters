@@ -3,9 +3,9 @@ import { gsap, ScrollTrigger } from '../lib/gsap.js'
 import './Stats.css'
 
 const ITEMS = [
-  { value: 320, suffix: '+', label: 'Acres Developed' },
-  { value: 18, suffix: '', label: 'Years in Real Estate' },
-  { value: 1200, suffix: '+', label: 'Families Homed' },
+  { value: 100, suffix: '+', label: 'Acres Developed' },
+  { value: 5, suffix: '', label: 'Years in Real Estate' },
+  { value: 50, suffix: '+', label: 'Families Homed' },
   { value: 96, suffix: '%', label: 'Client Referral Rate' },
 ]
 

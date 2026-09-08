@@ -49,11 +49,11 @@ export default function CTA() {
         <div className="cta__contact">
           <div>
             <span>Call</span>
-            <strong>+91 98765 43210</strong>
+            <strong>+91 98656 59510</strong>
           </div>
           <div>
             <span>Visit</span>
-            <strong>Horizon Towers, Ring Road, Madurai</strong>
+            <strong>Thiruverumbur, Trichy</strong>
           </div>
           <div>
             <span>Email</span>
