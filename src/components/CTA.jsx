@@ -49,7 +49,7 @@ export default function CTA() {
         <div className="cta__contact">
           <div>
             <span>Call</span>
-            <strong>+91 98656 59510</strong>
+            <strong>+91 98656 59510 <br />+91 77085 89615 <br />+91 63817 73630 </strong>
           </div>
           <div>
             <span>Visit</span>
