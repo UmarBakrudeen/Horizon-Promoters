@@ -1,0 +1,64 @@
+.hero{
+  position:relative;
+  min-height:100vh;
+  display:flex; flex-direction:column; justify-content:center;
+  background:
+    radial-gradient(60% 55% at 78% 18%, rgba(212,175,55,0.10), transparent 70%),
+    linear-gradient(180deg, #050e09 0%, #0a2116 55%, #0f2e1d 100%);
+  overflow:hidden;
+  padding-top:110px;
+}
+.hero__glow{
+  position:absolute; top:-10%; left:-10%; width:60%; height:60%;
+  background:radial-gradient(circle, rgba(212,175,55,0.10), transparent 65%);
+  pointer-events:none;
+}
+.hero__skyline{
+  position:absolute; inset:0; bottom:0; height:60%; top:auto;
+  pointer-events:none;
+}
+.hero__skyline svg{ width:100%; height:100%; }
+
+.hero__inner{ position:relative; z-index:2; }
+
+.hero__headline{
+  font-size:clamp(2.6rem, 6.4vw, 5.4rem);
+  line-height:1.06;
+  margin-top:22px;
+  max-width:16ch;
+}
+.hero__line-wrap{ display:block; overflow:hidden; }
+.hero__line{ display:block; }
+.hero__line--gold{ color:var(--gold-500); font-style:italic; }
+
+.hero__sub{
+  margin-top:28px;
+  max-width:46ch;
+  font-size:1.05rem;
+  line-height:1.7;
+  color:var(--cream-dim);
+}
+
+.hero__actions{ display:flex; gap:16px; margin-top:38px; flex-wrap:wrap; }
+
+.hero__frame{ margin-top:76px; border-top:1px solid var(--green-line); padding-top:28px; }
+.hero__stats{ display:flex; gap:clamp(28px,6vw,80px); flex-wrap:wrap; }
+.hero__stat{ display:flex; flex-direction:column; gap:6px; }
+.hero__stat strong{ font-family:var(--font-display); font-size:2rem; color:var(--gold-300); }
+.hero__stat span{ font-size:0.78rem; letter-spacing:0.05em; color:var(--cream-dim); }
+
+.hero__scrolldown{
+  position:absolute; bottom:28px; right:clamp(20px,5vw,64px);
+  z-index:2;
+  display:flex; align-items:center; gap:10px;
+  font-size:0.72rem; letter-spacing:0.2em; color:var(--cream-dim);
+}
+.hero__scrolldown span{
+  width:1px; height:34px; background:linear-gradient(var(--gold-500), transparent);
+  display:block;
+}
+
+@media (max-width:640px){
+  .hero{ padding-top:96px; }
+  .hero__scrolldown{ display:none; }
+}

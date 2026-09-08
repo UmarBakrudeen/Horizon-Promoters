@@ -1,0 +1,32 @@
+.testi{ padding:130px 0; background:var(--green-900); border-top:1px solid var(--green-line); }
+.testi__head{ max-width:56ch; margin-bottom:56px; }
+.testi__head h2{ font-size:clamp(1.9rem,3.4vw,2.7rem); margin-top:14px; line-height:1.2; }
+
+.testi__panel{
+  position:relative;
+  max-width:760px;
+  border:1px solid var(--green-line);
+  background:var(--ink-950);
+  padding:clamp(30px,5vw,60px);
+}
+.testi__mark{
+  font-family:var(--font-display); font-size:4rem; color:var(--gold-500); line-height:0;
+  display:block; margin-bottom:20px;
+}
+.testi__text{
+  font-family:var(--font-display); font-size:clamp(1.3rem,2.4vw,1.7rem);
+  line-height:1.5; color:var(--cream); min-height:5.4em;
+}
+.testi__foot{
+  margin-top:34px; padding-top:24px; border-top:1px solid var(--green-line);
+  display:flex; justify-content:space-between; align-items:center;
+}
+.testi__foot strong{ display:block; font-family:var(--font-display); font-size:1.05rem; color:var(--gold-300); }
+.testi__foot span{ font-size:0.8rem; color:var(--cream-dim); }
+.testi__nav{ display:flex; gap:10px; }
+.testi__nav button{
+  width:40px; height:40px; border-radius:50%;
+  border:1px solid var(--green-line); background:transparent; color:var(--cream);
+  transition:border-color .3s ease, color .3s ease;
+}
+.testi__nav button:hover{ border-color:var(--gold-500); color:var(--gold-500); }
